@@ -1,0 +1,27 @@
+{
+    "name": "go1com/util_url",
+    "description": "Url generator for communication with microservices",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marc Rubio",
+            "email": "marc.rubio@go1.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "go1\\UtilUrl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "go1\\UtilUrl\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
