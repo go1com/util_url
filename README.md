@@ -1,6 +1,6 @@
 # Util URL
 
-[![Build Status](https://travis-ci.org/mrubiosan/util_url.svg?branch=master)](https://travis-ci.org/mrubiosan/util_url)
+[![Build Status](https://travis-ci.org/go1com/util_url.svg?branch=master)](https://travis-ci.org/go1com/util_url)
 
 Provides a single source of truth on how to generate URLs that point to GO1 microservices
 

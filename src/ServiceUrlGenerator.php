@@ -70,6 +70,11 @@ class ServiceUrlGenerator
         return $retval;
     }
 
+    /**
+     * There are some services that don't have staging instance yet.
+     * @param string $serviceName
+     * @return string
+     */
     private function getEnvironmentForService(string $serviceName) : string
     {
         return $serviceName === 'rules' ? 'production' : $this->environment;
